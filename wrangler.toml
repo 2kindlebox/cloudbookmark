@@ -1,0 +1,10 @@
+name = "cloudbookmark"
+main = "src/workers.js"
+compatibility_date = "2024-01-01"
+
+# KV Namespace Binding
+# IMPORTANT: Replace 'your-kv-id-here' with your actual KV namespace ID
+# Get it from: Cloudflare Dashboard > Workers & Pages > KV
+[[kv_namespaces]]
+binding = "CARD_ORDER"
+id = "8c7f032edfc44904a04d0a018b610878"
